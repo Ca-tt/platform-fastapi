@@ -11,9 +11,9 @@ PROJECTS: list[ProjectT] = [
         
         "language": "html_css",
 
-        "difficulty": {
-            "level": 1,
-            
+        "difficulty": 1,
+
+        "difficulty_metrics": {
             "html": 5,
             "css": 10,
             "animations": 40,     
@@ -44,9 +44,9 @@ PROJECTS: list[ProjectT] = [
         
         "language": "html_css",
 
-        "difficulty": {
-            "level": 1,
-            
+        "difficulty": 1,
+
+        "difficulty_metrics": {
             "html": 15,
             "css": 25,
             "logic": 60,         
@@ -74,9 +74,9 @@ PROJECTS: list[ProjectT] = [
         
         "language": "html_css",
 
-        "difficulty": {
-            "level": 2,
-            
+        "difficulty": 2,
+
+        "difficulty_metrics": {
             "html": 10,
             "css": 50,
             
@@ -106,9 +106,9 @@ PROJECTS: list[ProjectT] = [
         
         "language": "html_css",
 
-        "difficulty": {
-            "level": 2,
-            
+        "difficulty": 2,
+
+        "difficulty_metrics": {
             "html": 40,
             "css": 60,
             
