@@ -5,10 +5,11 @@ PROJECTS: list[ProjectT] = [
     {
         "name": "animated_underline",
         
-        "language": "HTML / CSS",
         "category": "markup",
+        "task_type": 2,
         "subcategory": "styling",
-        "task_type": "training",
+        
+        "language": "html_css",
 
         "difficulty": {
             "level": 1,
@@ -37,10 +38,11 @@ PROJECTS: list[ProjectT] = [
     {
         "name": "moving_cursor_menu",
         
-        "language": "HTML / CSS",
         "category": "markup",
+        "task_type": 2,
         "subcategory": "site_parts",
-        "task_type": "training",
+        
+        "language": "html_css",
 
         "difficulty": {
             "level": 1,
@@ -66,10 +68,11 @@ PROJECTS: list[ProjectT] = [
     {
         "name": "bulma_css_library",
         
-        "language": "HTML / CSS",
         "category": "markup",
+        "task_type": 1,
         "subcategory": "library",
-        "task_type": "learning",
+        
+        "language": "html_css",
 
         "difficulty": {
             "level": 2,
@@ -97,10 +100,11 @@ PROJECTS: list[ProjectT] = [
      {
         "name": "web_studio_landing",
         
-        "language": "HTML / CSS",
         "category": "markup",
+        "task_type": 3,
         "subcategory": "website",
-        "task_type": "project",
+        
+        "language": "html_css",
 
         "difficulty": {
             "level": 2,
