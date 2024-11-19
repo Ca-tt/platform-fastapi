@@ -18,7 +18,7 @@ PROJECTS: list[ProjectT] = [
         "category": "markup",
         "subcategory": "styling",
 
-        "difficulty_metrics": {
+        "difficultyMetrics": {
             "html": 5,
             "css": 10,
             "animations": 40,     
@@ -29,13 +29,13 @@ PROJECTS: list[ProjectT] = [
         "title": "Красивое подчёркивание текста",
         "description": "На этот раз нам предстоит сделать красивое анимированное подчёркивание текста",
         
-        "skills_to_improve": ["css", "animations", "new_code"],
+        "skillsToImprove": ["css", "animations", "new_code"],
         "reward": "+5 очков по владению CSS-анимациями",
         
         "link": "https://codepen.io/Kseso/pen/ApYVoW", 
-        "preview_image": "/img/markup/animated_underline.gif",
+        "previewImage": "/img/markup/animated_underline.gif",
 
-        "other_languages": [],
+        "otherLanguages": [],
     },
     
     {
@@ -50,7 +50,7 @@ PROJECTS: list[ProjectT] = [
         "difficulty": 1,
         "isTeamProject": False, 
 
-        "difficulty_metrics": {
+        "difficultyMetrics": {
             "html": 15,
             "css": 25,
             "logic": 60,         
@@ -59,13 +59,13 @@ PROJECTS: list[ProjectT] = [
         "title": "Бегающий курсор за меню",
         "description": "Хитрая, чисто логичная задача на CSS",
         
-        "skills_to_improve": ["html", "css", "logic"],
+        "skillsToImprove": ["html", "css", "logic"],
         "reward": "+10 очков по владению CSS-анимациями",
         
         "link": "https://codepen.io/Patak/details/QpLpOV", 
-        "preview_image": "/img/markup/moving_cursor_menu.gif",
+        "previewImage": "/img/markup/moving_cursor_menu.gif",
 
-        "other_languages": [],
+        "otherLanguages": [],
     },
     
     {
@@ -80,7 +80,7 @@ PROJECTS: list[ProjectT] = [
         "isTeamProject": False, 
         "difficulty": 2,
 
-        "difficulty_metrics": {
+        "difficultyMetrics": {
             "html": 10,
             "css": 50,
             
@@ -91,13 +91,13 @@ PROJECTS: list[ProjectT] = [
         "title": "Bulma: CSS-фреймворк",
         "description": "Цель этой задачи — разобраться с тем, как работает популярная библиотека Bulma",
         
-        "skills_to_improve": ["html", "css", "logic"],
+        "skillsToImprove": ["html", "css", "logic"],
         "reward": "Тебе больше не придётся писать CSS: всю работу на себя возьмёт Bulma. \n +10 очков по владению CSS",
         
         "link": "https://bulma.io/", 
-        "preview_image": "/img/markup/bulma.gif",
+        "previewImage": "/img/markup/bulma.gif",
 
-        "other_languages": [],
+        "otherLanguages": [],
     },
     
      {
@@ -112,7 +112,7 @@ PROJECTS: list[ProjectT] = [
         "isTeamProject": True, 
         "difficulty": 2,
 
-        "difficulty_metrics": {
+        "difficultyMetrics": {
             "html": 40,
             "css": 60,
             
@@ -122,13 +122,13 @@ PROJECTS: list[ProjectT] = [
         "title": "Web Studio: твой первый лендинг",
         "description": "Тебе предстоит совершить прыжок в навыках и сделать вот такой простой сайт-лендинг. Здесь будет над чем подумать",
         
-        "skills_to_improve": ["html", "css", "logic"],
+        "skillsToImprove": ["html", "css", "logic"],
         "reward": "Свой первый лендинг в копилочку!",
         
         "link": "https://www.figma.com/design/rKBKNUrq6jEPoVswEKFji5/Web-Studio-(Version-2.1)-(Copy)-(Copy)?node-id=0-1&node-type=canvas", 
-        "preview_image": "/img/markup/web_studio_landing.gif",
+        "previewImage": "/img/markup/web_studio_landing.gif",
 
-        "other_languages": [],
+        "otherLanguages": [],
     },
     
 ]
