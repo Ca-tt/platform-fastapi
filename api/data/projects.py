@@ -28,11 +28,10 @@ PROJECTS: list[ProjectT] = [
         "title": "Красивое подчёркивание текста",
         "description": "На этот раз нам предстоит сделать красивое анимированное подчёркивание текста",
         
-        "skillsToImprove": ["css", "animations", "new_code"],
         "reward": "+5 очков по владению CSS-анимациями",
         
         "link": "https://codepen.io/Kseso/pen/ApYVoW", 
-        "previewImage": "/img/markup/animated_underline.gif",
+        "previewImage": "/img/markup/animated-underline.gif",
 
         "otherLanguages": [],
     },
@@ -57,7 +56,6 @@ PROJECTS: list[ProjectT] = [
         "title": "Бегающий курсор за меню",
         "description": "Хитрая, чисто логичная задача на CSS",
         
-        "skillsToImprove": ["html", "css", "logic"],
         "reward": "+10 очков по владению CSS-анимациями",
         
         "link": "https://codepen.io/Patak/details/QpLpOV", 
@@ -88,7 +86,6 @@ PROJECTS: list[ProjectT] = [
         "title": "Bulma: CSS-фреймворк",
         "description": "Цель этой задачи — разобраться с тем, как работает популярная библиотека Bulma",
         
-        "skillsToImprove": ["html", "css", "logic"],
         "reward": "Тебе больше не придётся писать CSS: всю работу на себя возьмёт Bulma. \n +10 очков по владению CSS",
         
         "link": "https://bulma.io/", 
@@ -118,7 +115,6 @@ PROJECTS: list[ProjectT] = [
         "title": "Web Studio: твой первый лендинг",
         "description": "Тебе предстоит совершить прыжок в навыках и сделать вот такой простой сайт-лендинг. Здесь будет над чем подумать",
         
-        "skillsToImprove": ["html", "css", "logic"],
         "reward": "Свой первый лендинг в копилочку!",
         
         "link": "https://www.figma.com/design/rKBKNUrq6jEPoVswEKFji5/Web-Studio-(Version-2.1)-(Copy)-(Copy)?node-id=0-1&node-type=canvas", 
