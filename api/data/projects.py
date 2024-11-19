@@ -19,11 +19,10 @@ PROJECTS: list[ProjectT] = [
         "subcategory": "styling",
 
         "difficultyMetrics": {
-            "html": 5,
-            "css": 10,
-            "animations": 40,     
-            
-            "new_code": 50,    
+            "css": 20,
+            "cssAnimations": 40,     
+            "newCode": 50,
+            "logic": 30,         
         },
 
         "title": "Красивое подчёркивание текста",
@@ -51,7 +50,6 @@ PROJECTS: list[ProjectT] = [
         "isTeamProject": False, 
 
         "difficultyMetrics": {
-            "html": 15,
             "css": 25,
             "logic": 60,         
         },
@@ -81,11 +79,10 @@ PROJECTS: list[ProjectT] = [
         "difficulty": 2,
 
         "difficultyMetrics": {
-            "html": 10,
             "css": 50,
             
             "logic": 35,         
-            "new_code": 40,
+            "newCode": 40,
         },
 
         "title": "Bulma: CSS-фреймворк",
@@ -113,7 +110,6 @@ PROJECTS: list[ProjectT] = [
         "difficulty": 2,
 
         "difficultyMetrics": {
-            "html": 40,
             "css": 60,
             
             "logic": 25,         
