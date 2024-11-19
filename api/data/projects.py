@@ -1,17 +1,22 @@
 from api.types.types import ProjectT
 
+""" 
+    Size: 1 - 5; theory, task, project, service, all (5)
+
+"""
 
 PROJECTS: list[ProjectT] = [
     {
         "name": "animated_underline",
         
-        "category": "markup",
-        "task_type": 2,
-        "subcategory": "styling",
-        
         "language": "html_css",
+        "size": 2,
 
+        "isTeamProject": False, 
         "difficulty": 1,
+        
+        "category": "markup",
+        "subcategory": "styling",
 
         "difficulty_metrics": {
             "html": 5,
@@ -26,25 +31,24 @@ PROJECTS: list[ProjectT] = [
         
         "skills_to_improve": ["css", "animations", "new_code"],
         "reward": "+5 очков по владению CSS-анимациями",
-
         
         "link": "https://codepen.io/Kseso/pen/ApYVoW", 
         "preview_image": "/img/markup/animated_underline.gif",
 
-        "isTeamProject": False, 
         "other_languages": [],
     },
     
     {
         "name": "moving_cursor_menu",
         
+        "language": "html_css",
+        "size": 2,
+        
         "category": "markup",
-        "task_type": 2,
         "subcategory": "site_parts",
         
-        "language": "html_css",
-
         "difficulty": 1,
+        "isTeamProject": False, 
 
         "difficulty_metrics": {
             "html": 15,
@@ -61,19 +65,19 @@ PROJECTS: list[ProjectT] = [
         "link": "https://codepen.io/Patak/details/QpLpOV", 
         "preview_image": "/img/markup/moving_cursor_menu.gif",
 
-        "isTeamProject": False, 
         "other_languages": [],
     },
     
     {
         "name": "bulma_css_library",
         
+        "language": "html_css",
+        "size": 1,
+        
         "category": "markup",
-        "task_type": 1,
         "subcategory": "library",
         
-        "language": "html_css",
-
+        "isTeamProject": False, 
         "difficulty": 2,
 
         "difficulty_metrics": {
@@ -93,19 +97,19 @@ PROJECTS: list[ProjectT] = [
         "link": "https://bulma.io/", 
         "preview_image": "/img/markup/bulma.gif",
 
-        "isTeamProject": False, 
         "other_languages": [],
     },
     
      {
         "name": "web_studio_landing",
         
-        "category": "markup",
-        "task_type": 3,
-        "subcategory": "website",
-        
         "language": "html_css",
+        "size": 3,
+        
+        "category": "markup",
+        "subcategory": "website",
 
+        "isTeamProject": True, 
         "difficulty": 2,
 
         "difficulty_metrics": {
@@ -124,7 +128,6 @@ PROJECTS: list[ProjectT] = [
         "link": "https://www.figma.com/design/rKBKNUrq6jEPoVswEKFji5/Web-Studio-(Version-2.1)-(Copy)-(Copy)?node-id=0-1&node-type=canvas", 
         "preview_image": "/img/markup/web_studio_landing.gif",
 
-        "isTeamProject": True, 
         "other_languages": [],
     },
     
