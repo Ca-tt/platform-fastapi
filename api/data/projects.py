@@ -1,13 +1,9 @@
 from api.types.types import ProjectT
 
-""" 
-    Size: 1 - 5; theory, task, project, service, all (5)
-
-"""
 
 PROJECTS: list[ProjectT] = [
     {
-        "name": "animated_underline",
+        "slug": "animated_underline",
         
         "language": "html_css",
         "size": 2,
@@ -37,7 +33,7 @@ PROJECTS: list[ProjectT] = [
     },
     
     {
-        "name": "moving_cursor_menu",
+        "slug": "moving_cursor_menu",
         
         "language": "html_css",
         "size": 2,
@@ -65,7 +61,7 @@ PROJECTS: list[ProjectT] = [
     },
     
     {
-        "name": "bulma_css_library",
+        "slug": "bulma_css_library",
         
         "language": "html_css",
         "size": 1,
@@ -94,8 +90,8 @@ PROJECTS: list[ProjectT] = [
         "otherLanguages": [],
     },
     
-     {
-        "name": "web_studio_landing",
+    {
+        "slug": "web_studio_landing",
         
         "language": "html_css",
         "size": 3,
@@ -121,6 +117,73 @@ PROJECTS: list[ProjectT] = [
         "previewImage": "/img/markup/web_studio_landing.gif",
 
         "otherLanguages": [],
+    },
+    {
+        "slug": "dating_bot",
+        
+        "language": "python",
+        "otherLanguages": ["php", "nodejs"],
+        
+        "size": 4,
+        
+        "niche": "dating",
+        "category": "bots",
+        "subcategory": "",
+
+        "isTeamProject": True, 
+        "difficulty": 4,
+
+        "difficultyMetrics": {
+            "python": 85,
+            "logic": 80,         
+            "deploy": 75,
+            "automation": 75,
+            "backend": 60,
+        },
+
+        "title": "Бот для знакомств (Украина + заграница)",
+        "description": "Одно из древних, сокровенных и почти забытых желаний Дамира (и почти каждого холостяка) - найти девушку, которая станет спутницей жизни.\nТебе предстоит разработать сервис для знакомств и помочь Дамиру найти вторую половинку.\nОдиноким - найти друзей, желающим изучать языки - партнёра по языкам, а нелюбимым - заново поверить в любовь!",
+        
+        "reward": "Не каждый день тебя зовут стать частью большого сервиса для знакомств, которому не будет аналогов. Почему бы не взяться за это прямо сегодня?",
+        
+        "link": "./", 
+        "previewImage": "/img/bots/dating.jpg",
+    },
+    {
+        "slug": "sign_up_login_expand",
+        
+        "language": "javascript",
+        "otherLanguages": ["python"],
+        
+        "size": 4,
+        
+        "niche": "education",
+        "category": "websites",
+        "subcategory": "user-management",
+
+        "isTeamProject": True, 
+        "difficulty": 3,
+
+        "difficultyMetrics": {
+            "javascript": 90,         
+            "logic": 80,         
+            "deploy": 40,
+            "automation": 40,
+            "python": 50,
+            "backend": 50,
+        },
+
+        "title": "Монетизация EXPAND: логин и регистрация на сайте",
+        "description": "Дамир снова просит твоей помощи: помоги ему сделать логин и регистрацию на сайте платформы, чтобы в будущем Дамир смог ",
+        
+        "reward": {
+            "description": "Сделать логин и регистрацию на сайте - лишь первый шаг к тому, чтобы начать продавать контент на сайте EXPAND PLATFORM.\nТы можешь стать частью куда большой затеи. К тому же, не безвыгодной - для тебя в первую очередь!",
+            "has_money_compensation": True,
+        }
+    
+        
+        "link": "./", 
+        "previewImage": "/img/platform/expand-home.png",
     },
     
 ]
