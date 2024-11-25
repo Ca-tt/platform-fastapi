@@ -2,10 +2,10 @@ from api.types.types import ProjectT
 
 
 PROJECTS: list[ProjectT] = [
+    # underline animation css
     {
         "slug": "animated_underline",
-        "language": "html_css",
-        "otherLanguages": [],
+        "languages": ["html_css"],
         "size": 2,
         "isTeamProject": False,
         "difficulty": 1,
@@ -24,12 +24,12 @@ PROJECTS: list[ProjectT] = [
             "description": "<ol><li>+10 очков владения CSS-анимациями 💅</li></ol>",
         },
         "link": "https://codepen.io/Kseso/pen/ApYVoW",
-        "previewImage": "/img/markup/animated-underline.gif",
+        "previewImage": "/img/markup/animations/animated-underline.gif",
     },
+    # moving cursor menu animation
     {
         "slug": "moving_cursor_menu",
-        "language": "html_css",
-        "otherLanguages": [],
+        "languages": ["html_css"],
         "size": 2,
         "niche": "webdev",
         "category": "markup",
@@ -48,12 +48,12 @@ PROJECTS: list[ProjectT] = [
             "has_money_compensation": False,
         },
         "link": "https://codepen.io/Patak/details/QpLpOV",
-        "previewImage": "/img/markup/moving_cursor_menu.gif",
+        "previewImage": "/img/markup/animations/moving_cursor_menu.gif",
     },
+    # bulma css
     {
         "slug": "bulma_css_library",
-        "language": "html_css",
-        "otherLanguages": [],
+        "languages": ["html_css"],
         "size": 1,
         "niche": "webdev",
         "category": "markup",
@@ -72,12 +72,12 @@ PROJECTS: list[ProjectT] = [
             "has_money_compensation": False,
         },
         "link": "https://bulma.io/",
-        "previewImage": "/img/markup/bulma.gif",
+        "previewImage": "/img/markup/libraries/bulma.gif",
     },
+    # web studio landing
     {
         "slug": "web_studio_landing",
-        "language": "html_css",
-        "otherLanguages": [],
+        "languages": ["html_css"],
         "size": 3,
         "niche": "webdev",
         "category": "markup",
@@ -96,12 +96,12 @@ PROJECTS: list[ProjectT] = [
             "has_money_compensation": False,
         },
         "link": "https://www.figma.com/design/rKBKNUrq6jEPoVswEKFji5/Web-Studio-(Version-2.1)-(Copy)-(Copy)?node-id=0-1&node-type=canvas",
-        "previewImage": "/img/markup/web_studio_landing.gif",
+        "previewImage": "/img/markup/landing/web_studio_landing.gif",
     },
+    # dating bot
     {
         "slug": "dating_bot",
-        "language": "python",
-        "otherLanguages": ["php", "nodejs"],
+        "languages": ["python"],
         "size": 4,
         "niche": "dating",
         "category": "bots",
@@ -124,10 +124,10 @@ PROJECTS: list[ProjectT] = [
         "link": "./",
         "previewImage": "/img/bots/dating.jpg",
     },
+    # login / sign up expand
     {
         "slug": "sign_up_login_expand",
-        "language": "javascript",
-        "otherLanguages": ["python"],
+        "languages": ["javascript"],
         "size": 4,
         "niche": "education",
         "category": "websites",
@@ -150,5 +150,53 @@ PROJECTS: list[ProjectT] = [
         },
         "link": "./",
         "previewImage": "/img/platform/expand-home.png",
+    },
+    # bootstrap css library
+    {
+        "slug": "bootstrap_css_library",
+        "languages": ["html_css"],
+        "size": 1,
+        "niche": "",
+        "category": "markup",
+        "subcategory": "library",
+        "isTeamProject": False,
+        "difficulty": 2,
+        "difficultyMetrics": {
+            "new": 75,
+            "css": 70,
+            "logic": 35,
+        },
+        "title": "Bootstrap: CSS-фреймворк",
+        "description": "Цель нашей тренировки — разобраться с тем, как работает популярная библиотека CSS-классов — Bootstrap: <ul><li>1. Сначала мы установим её в наш проект</li><li>2. Затем разберёмся, как она устроена изнутри</li><li>3. Освоим её документацию</li></ul><p>В результате мы найдём и выберем для себя полезные CSS-классы и готовые компоненты (части) сайтов, чтобы забыть о CSS-стилях раз и навсегда (ну, почти, хихи)</p>",
+        "reward": {
+            "description": "<ol><li>Больше никаких CSS-классов: всю работу возьмёт на себя Bootstrap</li><li>+35 очков ко владению CSS</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://getbootstrap.com/",
+        "previewImage": "/img/markup/libraries/bootstrap.gif",
+    },
+    # vue email autocomplete
+    {
+        "slug": "email_autocomplete",
+        "languages": ["javascript", "vue"],
+        "size": 2,
+        "niche": "",
+        "category": "markup",
+        "subcategory": "forms",
+        "isTeamProject": False,
+        "difficulty": 1,
+        "difficultyMetrics": {
+            "vue": 35,
+            "logic": 20,
+            "javascript": 10,
+        },
+        "title": "Автокомплит имейла: задачка на Vue",
+        "description": "Нам поручили написать поле, которое автоматически будет добавлять <i>@gmail.com</i> к имейлу, который придумывает себе пользователь. <p>Удобно, когда регистрируешь новый имейл, согласен?</p>",
+        "reward": {
+            "description": "<ol><li>+5 очков владения VueJS</li><li>Небольшая тренировочка. Почему нет?</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.notion.so/expnd/Email-autocomplete-978fae419e104f51a2a6a2e82f3520d2",
+        "previewImage": "/img/vue/tasks/easy/email-autocomplete.gif",
     },
 ]
