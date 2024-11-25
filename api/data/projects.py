@@ -178,7 +178,7 @@ PROJECTS: list[ProjectT] = [
     # vue email autocomplete
     {
         "slug": "email_autocomplete",
-        "languages": ["javascript", "vue"],
+        "languages": ["javascript"],
         "size": 2,
         "niche": "",
         "category": "markup",
@@ -198,5 +198,29 @@ PROJECTS: list[ProjectT] = [
         },
         "link": "https://www.notion.so/expnd/Email-autocomplete-978fae419e104f51a2a6a2e82f3520d2",
         "previewImage": "/img/vue/tasks/easy/email-autocomplete.gif",
+    },
+    # reactive form fields + component practice
+    {
+        "slug": "reactive_form_fields",
+        "languages": ["javascript"],
+        "size": 2,
+        "niche": "",
+        "category": "markup",
+        "subcategory": "forms",
+        "isTeamProject": False,
+        "difficulty": 1,
+        "difficultyMetrics": {
+            "vue": 55,
+            "logic": 40,
+            "javascript": 15,
+        },
+        "title": "Реактивная форма: тренировка компонентов на Vue",
+        "description": "Твоя задача следующая: <ol><li>Как только ты вводишь что-то в инпут</li><li>Это что-то тут же появляется на страничке — внизу, под формой</li></ol> <p>Это — достойная тренировка достойного VueJS-разработчика, который хочет освоить реактивность, компоненты и вечно бороздить моря JavaScript-разработки</p><p>Берёмся?</p>",
+        "reward": {
+            "description": "<ol><li>+10 очков владения VueJS</li><li>Небольшая тренировка твои навыков. Почему бы и нет?</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://codepen.io/soufiane-khalfaoui-hassani/pen/LYpPWda",
+        "previewImage": "/img/vue/tasks/easy/reactive-form-fields.gif",
     },
 ]
