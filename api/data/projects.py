@@ -217,10 +217,33 @@ PROJECTS: list[ProjectT] = [
         "title": "Реактивная форма: тренировка компонентов на Vue",
         "description": "Твоя задача следующая: <ol><li>Как только ты вводишь что-то в инпут</li><li>Это что-то тут же появляется на страничке — внизу, под формой</li></ol> <p>Это — достойная тренировка достойного VueJS-разработчика, который хочет освоить реактивность, компоненты и вечно бороздить моря JavaScript-разработки</p><p>Берёмся?</p>",
         "reward": {
-            "description": "<ol><li>+10 очков владения VueJS</li><li>Небольшая тренировка твои навыков. Почему бы и нет?</li></ol>",
+            "description": "<ol><li>+10 очков владения VueJS</li><li>Небольшая тренировка твоих навыков. Почему бы и нет?</li></ol>",
             "has_money_compensation": False,
         },
         "link": "https://codepen.io/soufiane-khalfaoui-hassani/pen/LYpPWda",
         "previewImage": "/img/vue/tasks/easy/reactive-form-fields.gif",
+    },
+    # fetch + API (javascript or Vue)
+    {
+        "slug": "fetch_api",
+        "languages": ["javascript"],
+        "size": 1,
+        "niche": "",
+        "category": "technology",
+        "subcategory": "API",
+        "isTeamProject": False,
+        "difficulty": 2,
+        "difficultyMetrics": {
+            "javascript": 65,
+            "logic": 65,
+        },
+        "title": "Fetch: работа с запросами и API",
+        "description": "Чтобы показать проект, который ты сейчас смотришь, браузеру понадобилось сделать следующее: <ol><li>Отправить запрос на API платформы EXPAND</li><li>Вытянуть из API базу данных проектов</li><li>Отфильтровать проект по твоему критерию</li><li>И только после — показать проект на сайте</li></ol><p>Это — дело рук fetch и API: важных инструментов для работы с запросами, без которых настоящий JavaScript-разработчик не представляет свою жизнь.</p><p>Освоим новый навык?</p>",
+        "reward": {
+            "description": "<ol><li>+25 очков владения JavaScript</li><li>Интересный ресёрч с обучающими материалами</li><li>Много нового и интересного (а кода по факту будет мало)</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.notion.so/expnd/Fetch-API-0712e49ed3ee4bff8be2e50937805d08",
+        "previewImage": "/img/js/technologies/fetch-api.gif",
     },
 ]
