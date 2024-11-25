@@ -246,4 +246,29 @@ PROJECTS: list[ProjectT] = [
         "link": "https://www.notion.so/expnd/Fetch-API-0712e49ed3ee4bff8be2e50937805d08",
         "previewImage": "/img/js/technologies/fetch-api.gif",
     },
+    # лендинг твоей мечты: landing page html / css / tilda
+    {
+        "slug": "your_dream_landing_page",
+        "languages": ["html_css"],
+        "size": 3,
+        "niche": "marketing",
+        "category": "sales",
+        "subcategory": "design",
+        "isTeamProject": False,
+        "difficulty": 1,
+        "difficultyMetrics": {
+            "marketing": 50,
+            "design": 35,
+            "website_builders": 35,
+            "new": 35,
+        },
+        "title": "Лендинг твоей мечты!",
+        "description": "Давно хотел сделать сайт для себя и для развития своего дела? Негоже такое откладывать! <p>На этом проекте мы научимся:</p><ol><li>Пользоваться конструктором сайтов Тильда</li><li>Узнаем о том, как создавать продающие сайты</li><li>Сделаем феерически красивый лендинг своими руками!</li></ol><p>И покажем всем клиентам, что мы способны не только хорошо делать свою работу, но и красиво преподать себя!</p><p>Займёмся маркетингом тебя любимого?</p>",
+        "reward": {
+            "description": "<ol><li>+10 очков владения веб-дизайном</li><li>+10 очков владения продажами!</li><li>Много нового и интересного</li></ol><p>И да, приятный бонус: на это проекте не нужно писать код!</p>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.expandplatform.com/web/projects/tilda/",
+        "previewImage": "/img/markup/landing/your-dream-landing-page.png",
+    },
 ]
