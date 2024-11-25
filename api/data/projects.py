@@ -271,4 +271,29 @@ PROJECTS: list[ProjectT] = [
         "link": "https://www.expandplatform.com/web/projects/tilda/",
         "previewImage": "/img/markup/landing/your-dream-landing-page.png",
     },
+    # Тильда + каталог своими руками
+    {
+        "slug": "tilda_catalogue",
+        "languages": ["html_css"],
+        "size": 3,
+        "niche": "marketing",
+        "category": "sales",
+        "subcategory": "design",
+        "isTeamProject": False,
+        "difficulty": 1,
+        "difficultyMetrics": {
+            "marketing": 50,
+            "design": 35,
+            "website_builders": 35,
+            "new": 35,
+        },
+        "title": "Каталог твоей мечты: изучаем Тильду!",
+        "description": "Давно хотел сделать интернет-магазин для себя и для своего бизнеса? Негоже такое откладывать!<p>На этом проекте мы научимся:</p><ol><li>Пользоваться конструктором сайтов Тильда</li><li>Узнаем о том, как создавать продающие сайты</li><li>Сделаем феерически красивый каталог своими (по факту - твоими) руками!</li></ol><p>И покажем твоим клиентам, что ты способен не только хорошо продать себя, но и красиво оформить свой сайт!</p>",
+        "reward": {
+            "description": "<ol><li>+10 очков владения веб-дизайном</li><li>+10 очков владения продажами!</li><li>Много нового и интересного + <b>каталог в придачу!</b></li></ol><p>И да, приятный бонус: на это проекте мы отдыхаем от написания кода!</p>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.expandplatform.com/web/projects/tilda/",
+        "previewImage": "/img/markup/website-builders/tilda.png",
+    },
 ]
