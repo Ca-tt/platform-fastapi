@@ -317,7 +317,7 @@ PROJECTS: list[ProjectT] = [
             "has_money_compensation": False,
         },
         "link": "#",
-        "previewImage": "/img/logic/cinema_visitors.jpg",
+        "previewImage": "/img/logic/tasks/cinema_visitors.jpg",
     },
     # Jack Sparrow: Джек Воробей идёт на работу (резюме на HTML / CSS)
     {
@@ -438,5 +438,54 @@ PROJECTS: list[ProjectT] = [
         },
         "link": "https://www.notion.so/expnd/2b337b48d5c1488b96f1b4a71839cef2",
         "previewImage": "/img/tools/simple/terminal.gif",
+    },
+    # Калькулятор для тёти Ларисы на чистом JavaScript
+    {
+        "slug": "calculator-aunt-larisa",
+        "languages": ["javascript"],
+        "taskType": 3,
+        "difficulty": 3,
+        "difficultyMetrics": {
+            "new": 70,
+            "javascript": 65,
+            "html_css": 60,
+            "logic": 60,
+        },
+        "title": "Калькулятор для тёти Ларисы на чистом JavaScript",
+        "description": "<p>На этом проекте нас предстоит написать настоящий калькулятор. </p><p>Сделать работу нужно в сроки, ведь просит нас об этом не абы кто, а сама тётя Лариса — наша подружка из продуктового магазина за углом!</p><p>Прелесть проекта в том, что здесь будет мало вёрстки и много JavaScript'а.</p><p>Для тех, кто жаждет выучить JavaScript и стать Junior разработчиком, этот проект — is a must!</p> ",
+        "reward": {
+            "description": "<ol><li>+20 очков владения JavaScript</li><li>Интересный проект, от которого на душе остаётся приятное послевкусие!</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.notion.so/expnd/fb98f45ef2ae4ec594da4bce0603db69",
+        "previewImage": "/img/js/tasks/calculator.gif",
+        "isTeamProject": False,
+        "niche": "",
+        "category": "",
+        "subcategory": "",
+    },
+    # Codewars: тренировка навыков на любом языке
+    {
+        "slug": "codewars-practice",
+        "languages": ["javascript", "python", "php", "cpp", "nodejs", "c#"],
+        "taskType": 2,
+        "difficulty": 2,
+        "difficultyMetrics": {
+            "logic": 75,
+            "language": 60,
+            "size": 30,
+        },
+        "title": "Codewars: теквандо навыков на любимом языке",
+        "description": "Мы пришли на Codewars, чтобы тренировать навыки — и мы получим их любой ценой! <p>Codewars — известнейшая площадка для тренировок навыков на любом языке программирования</p> <p>Создай аккаунт, выбери первую задачу — и мы выступаем!</p>",
+        "reward": {
+            "description": "<ol><li>+15 очков владения выбранным языком</li><li>Интересный опыт от прохождения нетипичных задач!</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.codewars.com/",
+        "previewImage": "/img/logic/tasks/codewars.gif",
+        "isTeamProject": False,
+        "niche": "",
+        "category": "",
+        "subcategory": "",
     },
 ]
