@@ -488,4 +488,80 @@ PROJECTS: list[ProjectT] = [
         "category": "",
         "subcategory": "",
     },
+    # Codewars: тренировка функций
+    {
+        "slug": "functions_codewars",
+        "languages": ["javascript", "python", "php", "cpp", "nodejs", "c#"],
+        "taskType": 2,
+        "difficulty": 2,
+        "difficultyMetrics": {
+            "logic": 75,
+            "language": 60,
+            "size": 30,
+        },
+        "title": "Тренировка функций на Codewars",
+        "description": "Мы пришли на Codewars, чтобы тренировать навыки — и мы получим их любой ценой! <p>Codewars — известнейшая площадка для тренировок навыков на любом языке программирования</p> <p>Создай аккаунт, выбери первую задачу — и мы выступаем!</p>",
+        "reward": {
+            "description": "<ol><li>+15 очков владения выбранным языком</li><li>Интересный опыт от прохождения нетипичных задач!</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.codewars.com/",
+        "previewImage": "/img/logic/tasks/codewars.gif",
+        "isTeamProject": False,
+        "niche": "",
+        "category": "",
+        "subcategory": "",
+    },
+    # VueJS: введение. 25 туториалов для изучения Vue
+    {
+        "slug": "vue-basics-tutorials",
+        "languages": ["javascript"],
+        "taskType": 1,
+        "difficulty": 3,
+        "difficultyMetrics": {
+            "logic": 80,
+            "javascript": 65,
+            "language": 60,
+            "size": 55,
+        },
+        "title": "Знакомимся с VueJS: введение и 25 туториалов для освоения Vue",
+        "description": "На чистом JavaScript можно написать что-угодно: <ul><li>Музыкальный плеер (Spotify, YouTube Music)</li><li>Мессенджер (Telegram, Viber, WhatsApp)</li><li>Игру или целую платформу: Flexbox Froggy, Codewars, Notion</li></ul> <p>JavaScript поистине всемогущ, а VueJS делает его сверхбожеством с 10 руками, с острыми как бритва клинками. </p><p>Vue — серьёзное оружение в руках тех, кто готов его освоить и сделать своим.</p> <p>Как думаешь: пришло время перейти из чистого JS на Vue?</p>",
+        "reward": {
+            "description": "<ol>Новый инструмент, который останется с тобой на всю жизнь — VueJS<li>+30 очков владения VueJS</li><li>+30 очков владения JavaScript</li> <li>Неимоверно сложная и интересная теория</li></ol><p><i>Как бонус:</i> после темы ты сможешь считать себя настоящим JavaScript-разработчиком. Без вариантов</p>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.expandplatform.com/web/lessons/vue/1-tutorials/",
+        "previewImage": "/img/vue/lessons/vue-intro.gif",
+        "isTeamProject": False,
+        "niche": "",
+        "category": "",
+        "subcategory": "",
+    },
 ]
+
+
+""" 
+? HTMl / CSS
+
+- flexbox froggy
+- 
+
+"""
+
+
+""" 
+? JS
+
+- Меню как в Notion
+- Динамичные таблицы как в Notion
+
+"""
+
+
+""" 
+! Python
+
+- API своими руками
+- телеграм-бот
+
+"""
