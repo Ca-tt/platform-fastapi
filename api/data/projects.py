@@ -458,7 +458,7 @@ PROJECTS: list[ProjectT] = [
             "has_money_compensation": False,
         },
         "link": "https://www.notion.so/expnd/fb98f45ef2ae4ec594da4bce0603db69",
-        "previewImage": "/img/js/tasks/calculator.gif",
+        "previewImage": "/img/js/projects/calculator.gif",
         "isTeamProject": False,
         "niche": "",
         "category": "",
@@ -527,7 +527,7 @@ PROJECTS: list[ProjectT] = [
         "title": "Знакомимся с VueJS: введение и 25 туториалов для освоения Vue",
         "description": "На чистом JavaScript можно написать что-угодно: <ul><li>Музыкальный плеер (Spotify, YouTube Music)</li><li>Мессенджер (Telegram, Viber, WhatsApp)</li><li>Игру или целую платформу: Flexbox Froggy, Codewars, Notion</li></ul> <p>JavaScript поистине всемогущ, а VueJS делает его сверхбожеством с 10 руками, с острыми как бритва клинками. </p><p>Vue — серьёзное оружение в руках тех, кто готов его освоить и сделать своим.</p> <p>Как думаешь: пришло время перейти из чистого JS на Vue?</p>",
         "reward": {
-            "description": "<ol>Новый инструмент, который останется с тобой на всю жизнь — VueJS<li>+30 очков владения VueJS</li><li>+30 очков владения JavaScript</li> <li>Неимоверно сложная и интересная теория</li></ol><p><i>Как бонус:</i> после темы ты сможешь считать себя настоящим JavaScript-разработчиком. Без вариантов</p>",
+            "description": "<ol>Новый инструмент, который останется с тобой на всю жизнь — VueJS<li>+30 очков владения VueJS</li><li>+30 очков владения JavaScript</li> <li>Неимоверно сложная и интересная теория</li></ol><p>Чуть не забыл сказать: если освоишь тему <i>сам</i>, можешь считать себя настоящим JavaScript-разработчиком</p>",
             "has_money_compensation": False,
         },
         "link": "https://www.expandplatform.com/web/lessons/vue/1-tutorials/",
@@ -536,6 +536,55 @@ PROJECTS: list[ProjectT] = [
         "niche": "",
         "category": "",
         "subcategory": "",
+    },
+    # Калькулятор цен (как на Экспанде)
+    {
+        "slug": "price-calculator",
+        "languages": ["javascript"],
+        "taskType": 3,
+        "difficulty": 3,
+        "difficultyMetrics": {
+            "logic": 75,
+            "javascript": 70,
+            "new": 50,
+            "size": 40,
+        },
+        "title": "Калькулятор цен, как на EXPAND",
+        "description": "На этот раз Дамир поручает тебе нелёгкую задачу: написать калькулятор цен для его курсов. Ниже, на фотке, ты увидишь прототип того, что нужно сделать. <p>В идеале — переплюнуть его и сделать лучше!</p><p>К примеру, дописать к нему рекомендательную систему на основе выбранного тарифа или перевод на разные языки.</p><p>По факту калькулятор может быть любой, ну, скажем — твоего времени как разработчика. Да ещё и в долларах. Что купишь, то и приготовим.</p><p>Ну так как: возьмёшься за создание онлайн-калькулятора?</p> ",
+        "reward": {
+            "description": "<ol><li>Научишься создавать реактивные мини-приложения на Vue (навык, который — поверь — никогда не будет лишним)</li><li>+30 очков владения VueJS</li><li>+30 очков владения JavaScript</li><li>Нетипичная, интересная практика</li></ol><p><i>Как бонус:</i> после темы ты сможешь считать себя настоящим JavaScript-разработчиком — без вариантов!</p>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.expandplatform.com/students/plan-picker/",
+        "previewImage": "/img/js/projects/web-calculator.gif",
+        "isTeamProject": True,
+        "niche": "finance",
+        "category": "mini-app",
+        "subcategory": "calculators",
+    },
+    # Добавляем перевод в мини-приложение
+    {
+        "slug": "mini-app-translation",
+        "languages": ["javascript"],
+        "taskType": 3,
+        "difficulty": 2,
+        "difficultyMetrics": {
+            "logic": 65,
+            "javascript": 60,
+            "new": 40,
+        },
+        "title": "Добавить в мини-приложение перевод на разные языки",
+        "description": "<p>Звучит как задача на фрилансе, правда?</p><p>В чём-то оно так и есть, ведь нам предстоит добавить перевод на три языка: русский, украинский и английский в выбранное (или сделанное) тобой приложение: веб-плеер, калькулятор, на сайт... You name it</p><p>Тебе предстоит чисто логичная задача на JavaScript и TypeScript. Всё верно: как раз научишься им пользоваться!</p><p>Если бы это была задача на фрилансе, тебе бы ещё и золотых немного отсыпали. Неплохой идеей после проекта будет зайти на какой-нибудь Upwork и разузнать, сколько же платят за такую задачу...</p>",
+        "reward": {
+            "description": "<ol><li>Научишься улучшать реактивные mini-apps на VueJS и работать с TypeScript (навык, который никогда не будет лишним)</li><li>+20 очков владения VueJS</li><li>+15 очков владения JavaScript и TypeScript</li><li>Интересная задача, применимая на практике</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.expandplatform.com/developer/services/password-generator/",
+        "previewImage": "/img/js/tasks/translation.gif",
+        "isTeamProject": False,
+        "niche": "security",
+        "category": "mini-app",
+        "subcategory": "generators",
     },
 ]
 
