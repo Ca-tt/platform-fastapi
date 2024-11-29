@@ -586,6 +586,31 @@ PROJECTS: list[ProjectT] = [
         "category": "mini-app",
         "subcategory": "generators",
     },
+    # Веб-плеер на Vue
+    {
+        "slug": "web-player-vue",
+        "languages": ["javascript"],
+        "taskType": 3,
+        "difficulty": 2,
+        "difficultyMetrics": {
+            "logic": 65,
+            "javascript": 55,
+            "size": 45,
+            "new": 35,
+        },
+        "title": "Веб-плеер на Vue (+TypeScript)",
+        "description": "<p>Звучит как челлендж, правда: с нуля создать плеер на Vue, да ещё и с использованием TypeScript!</p><p>Но, если разобраться, бояться на самом деле нечего: </p><ul><li>UI-ка здесь не такая уж и сложная (сам посмотри)</li><li>Ключевая задача здесь — логика. Но мы-то с тобой воробьи уже стрелянные и не с таким сталкивались, верно?</li></ul><p>Выходит, нужно заранее продумать логику, сделать UI и привязать JS (Vue) к вёрстке.</p><p>Предлагаю не откладывать столь интересный проект в тёмный и длинный ящик</p>",
+        "reward": {
+            "description": "<ol><li>+20 к разработке реактивных mini-apps на VueJS / TypeScript</li><li>+20 очков владения VueJS</li><li>+15 очков владения JavaScript / TypeScript</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://codepen.io/alexdevero/pen/aZjLNw",
+        "previewImage": "/img/vue/projects/web-player-vue.png",
+        "isTeamProject": True,
+        "niche": "media",
+        "category": "mini-app",
+        "subcategory": "players",
+    },
 ]
 
 
@@ -603,6 +628,16 @@ PROJECTS: list[ProjectT] = [
 
 - Меню как в Notion
 - Динамичные таблицы как в Notion
+
+"""
+
+
+""" 
+? Vue
+
+- CRM-система для партнёров EXPAND (интеграция с рекламынм ботом + дизайн и стиль как в Notion)
+- Админка на Vue для EXPAND: гибкий интерфейс лейаутов, вывод контента, интеграция сервисов, обновление контента в режиме реального времени (как в Notion)
+- Система риал-тайм контента: обновление контента в режиме реального времени (как в Notion)
 
 """
 
