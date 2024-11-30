@@ -657,6 +657,32 @@ PROJECTS: list[ProjectT] = [
         "category": "",
         "subcategory": "",
     },
+    # 2D-платформер на игровом движке
+    {
+        "slug": "2d-platformer",
+        "languages": ["javascript", "python", "php", "cpp", "nodejs", "c#"],
+        "taskType": 3,
+        "difficulty": 3,
+        "difficultyMetrics": {
+            "new": 85,
+            "size": 80,
+            "language": 70,
+            "logic": 65,
+            "design": 40,
+        },
+        "title": "2D-платформер на игровом движке",
+        "description": "<p>Мечтал сделать 2D-игру? Твоя мечта вот-вот может начать ходить, прыгать, собирать монетки... И конечно же встретить злейших врагов!</p><p>На этом проекте мы сделаем 2D-платформер, аналогичный Hollow Knight, Super Meat Boy и другим культовым инди-играм.</p><p>И да: <b>движок для игры выбираешь ты сам!</b></p>",
+        "reward": {
+            "description": "<ol><li>+3 уровня в Gamedev-разработке</li><li>+30 очков владения выбранным игровым движком</li><li>+20 очков владения выбранным языком (если движок предусматривает работу с языком)</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.construct.net/en/make-games/showcase",
+        "previewImage": "/img/engines/games/2d-platformer.gif",
+        "isTeamProject": True,
+        "niche": "gamedev",
+        "category": "2D-platformers",
+        "subcategory": "arcade",
+    },
 ]
 
 
