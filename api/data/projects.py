@@ -683,6 +683,32 @@ PROJECTS: list[ProjectT] = [
         "category": "2D-platformers",
         "subcategory": "arcade",
     },
+    # 2D-платформер на движке Construct 3
+    {
+        "slug": "2d-platformer-construct-3",
+        "languages": ["javascript", ],
+        "taskType": 3,
+        "difficulty": 3,
+        "difficultyMetrics": {
+            "new": 85,
+            "size": 80,
+            "logic": 65,
+            "design": 40,
+            "language": 40,
+        },
+        "title": "2D-платформер на движке Construct 3 (платная версия)",
+        "description": "<p>Хочешь, я оплачу для пару-тройку месяцев платной версии Construct 3, чтобы ты сделал свой небольшой 2D-платформер в стиле Hollow Knight и других культовых инди-игр?</p><h4>Что интересного нас ждёт на проекте?</h4><ol><li>Нам предстоит самим придумать сюжет и главного героя</li><li>Предстоит придумать мир и разработать под него дизайн</li><li>Продумать игровую механику и логику</li></ol><p>И это не говоря о дизайне самой игры!</p> <p>В общем, работы нас ждёт вагон и маленькая тележка, которая едёт в след за... О, вагонный 2D-платформер. Чем не игра?</p>",
+        "reward": {
+            "description": "<ol><li>+3 уровня в Gamedev-разработке</li><li>+30 очков владения выбранным игровым движком</li><li>+20 очков владения выбранным языком (если движок предусматривает работу с языком)</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.construct.net/en/make-games/showcase",
+        "previewImage": "/img/engines/games/construct-2d-game.gif",
+        "isTeamProject": True,
+        "niche": "gamedev",
+        "category": "2D-platformers",
+        "subcategory": "arcade",
+    },
 ]
 
 
