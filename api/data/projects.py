@@ -660,7 +660,7 @@ PROJECTS: list[ProjectT] = [
     # 2D-платформер на игровом движке
     {
         "slug": "2d-platformer",
-        "languages": ["javascript", "python", "php", "cpp", "nodejs", "c#"],
+        "languages": ["python", "php", "cpp", "nodejs", "c#"],
         "taskType": 3,
         "difficulty": 3,
         "difficultyMetrics": {
@@ -686,15 +686,15 @@ PROJECTS: list[ProjectT] = [
     # 2D-платформер на движке Construct 3
     {
         "slug": "2d-platformer-construct-3",
-        "languages": ["javascript", ],
+        "languages": ["javascript"],
         "taskType": 3,
         "difficulty": 3,
         "difficultyMetrics": {
-            "new": 85,
-            "size": 80,
-            "logic": 65,
+            "new": 75,
+            "size": 70,
+            "logic": 60,
             "design": 40,
-            "language": 40,
+            "javascript": 40,
         },
         "title": "2D-платформер на движке Construct 3 (платная версия)",
         "description": "<p>Хочешь, я оплачу для пару-тройку месяцев платной версии Construct 3, чтобы ты сделал свой небольшой 2D-платформер в стиле Hollow Knight и других культовых инди-игр?</p><h4>Что интересного нас ждёт на проекте?</h4><ol><li>Нам предстоит самим придумать сюжет и главного героя</li><li>Предстоит придумать мир и разработать под него дизайн</li><li>Продумать игровую механику и логику</li></ol><p>И это не говоря о дизайне самой игры!</p> <p>В общем, работы нас ждёт вагон и маленькая тележка, которая едёт в след за... О, вагонный 2D-платформер. Чем не игра?</p>",
