@@ -611,7 +611,56 @@ PROJECTS: list[ProjectT] = [
         "category": "mini-app",
         "subcategory": "players",
     },
+    # Поле с автокомплитом
+    {
+        "slug": "search-field-autocomplete",
+        "languages": ["javascript"],
+        "taskType": 2,
+        "difficulty": 2,
+        "difficultyMetrics": {
+            "logic": 65,
+            "javascript": 55,
+        },
+        "title": "Поле с автокомплитом (JS/TS на выбор)",
+        "description": "<p>Поиск должен быть удобным — именно так решили Сергей Брин и Ларри Пейдж в далёком 1998 году... И изобрели Google: компанию, которая сегодня стоит 2 триллиона долларов (2 и 12 нолей)</p><p>Конечно, новый Google изобретать ни к чему: нам предстоит всего лишь разработать поле с удобным поиском, как на картинке ниже.</p><h3>Усложнение</h3><p>Дополнить свой код типами — подключить и использовать TypeScript</p>",
+        "reward": {
+            "description": "<ol><li>+10 очков владения VueJS</li><li>+10 очков владения TypeScript</li><li>+10 очков владения JavaScript</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://www.naiveui.com/en-US/light/components/auto-complete",
+        "previewImage": "/img/vue/tasks/input-autocomplete.gif",
+        "isTeamProject": False,
+        "niche": "",
+        "category": "",
+        "subcategory": "",
+    },
+    # Счётчик слов и знаков: классическая задача на JavaScript
+    {
+        "slug": "word-character-counter",
+        "languages": ["javascript", "python", "php", "cpp", "nodejs", "c#"],
+        "taskType": 2,
+        "difficulty": 2,
+        "difficultyMetrics": {
+            "logic": 55,
+            "language": 45,
+        },
+        "title": "Счётчик слов и знаков",
+        "description": "<p>Классическая задача на любом языке программирования — создать штуку, которая будет считать слова и знаки.</p><p>Эта задача не нуждается в прелюдиях: просто возьми и сделай её</p>",
+        "reward": {
+            "description": "<ol><li>+1 level по выбранному языку</li><li>+10 очков владения выбранным языком</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://wordcounter.net/",
+        "previewImage": "/img/logic/tasks/word-counter.gif",
+        "isTeamProject": False,
+        "niche": "",
+        "category": "",
+        "subcategory": "",
+    },
 ]
+
+
+#! Добавить "усложнения" к задаче / проекту
 
 
 """ 
@@ -628,6 +677,17 @@ PROJECTS: list[ProjectT] = [
 
 - Меню как в Notion
 - Динамичные таблицы как в Notion
+- Карусель (слайдер на чистом JS, проект)
+https://www.naiveui.com/en-US/light/components/carousel
+- Календарь (по типу Google Calendar, только мини-версия, проекта)
+https://www.naiveui.com/en-US/light/components/date-picker
+https://www.naiveui.com/en-US/light/components/time-picker
+- Звёздочки (рейтинг, оценка) на чистом JS
+https://www.naiveui.com/en-US/light/components/rate
+- шифр (и дешифратор) Цезаря
+- драг-н-дроп заметка 
+https://www.naiveui.com/en-US/light/components/transfer
+
 
 """
 
