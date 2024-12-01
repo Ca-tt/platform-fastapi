@@ -760,6 +760,31 @@ PROJECTS: list[ProjectT] = [
         "category": "sales",
         "subcategory": "site-parts",
     },
+    # Генератор товаров: fakeStoreAPI
+    {
+        "slug": "products-generator-fakestore-api.gif",
+        "languages": ["javascript"],
+        "taskType": 3,
+        "difficulty": 3,
+        "difficultyMetrics": {
+            "logic": 75,
+            "javascript": 65,
+            "size": 50,
+        },
+        "title": "Генератор товаров: fakeStoreAPI",
+        "description": "<p>Взгляни на эту шикарную админку!</p>Единственное, чего ей не хватает — это добавления товаров. И мы можем с этим помочь:<ol><li>Товары возьмём на <a href='https://fakestoreapi.com/' target='_blank'>fakeStoreAPI</a></li><li>Сгенерируем для них карточки</li><li>И добавим это на сайт</li></ol><p>План прост, вот только будет ли просто это в реализации?</p>",
+        "extraTasks": "<ol><li>Добавить поиск по товарам (фильтрация при вводе в инпут)</li><li>Добавить фильтры по категориям и статусам (filters)</li></ol>",
+        "reward": {
+            "description": "<ol><li>+3 уровня JavaScript-разработки</li><li>+2 уровня к логике</li><li>+25 очков по навыкам JS</li></ol>",
+            "has_money_compensation": False,
+        },
+        "link": "https://codepen.io/aybukeceylan/pen/PopNYeJ",
+        "previewImage": "/img/js/projects/products-generator-fakestore-api.gif",
+        "isTeamProject": False,
+        "niche": "online-stores",
+        "category": "",
+        "subcategory": "",
+    },
 ]
 
 
@@ -823,6 +848,7 @@ https://www.naiveui.com/en-US/light/components/transfer
 - вечная прокрутка сайта (добавление / генерация текста + карточек при прокрутке)
 - подгрузка товаров, как в интернет-магазине
 - добавление товаров на сайт (кнопка для показа товаров + генерация их из API)
+- memory cards
 
 ? Усложнения:
 - Плеер: брать музыку из API, можно из самописного
@@ -832,6 +858,15 @@ https://www.naiveui.com/en-US/light/components/transfer
 - система управления контентом: CMS своими руками 
 - CMS: OpenCart (теория PHP + проект)
 - CMS: WordPress (теория PHP + проект)
+- логин и регистрация (командный)
 
+
+
+"""
+
+""" 
+
+! Сюда нужно перенести темы / проекты / задачи из полного списка тем и проектов
+https://www.expandplatform.com/students/projects/
 
 """
