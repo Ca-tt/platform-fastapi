@@ -10,7 +10,6 @@ class API:
         self.app = FastAPI()
         self.app.mount("/img", StaticFiles(directory="api/static/img"), name="img")
         
-        
         self.projects = Projects()
         self.projects.set_ids_for_projects()
         
