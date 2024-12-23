@@ -266,7 +266,7 @@ PROJECTS: list[ProjectT] = [
             "has_money_compensation": False,
         },
         "link": "https://www.notion.so/expnd/Fetch-API-0712e49ed3ee4bff8be2e50937805d08",
-        "previewImage": "/img/js/technologies/fetch-api.gif",
+        "previewImage": "/img/js/lessons/fetch-api.gif",
     },
     # лендинг твоей мечты: landing page html / css / tilda
     {
@@ -603,7 +603,7 @@ PROJECTS: list[ProjectT] = [
             "has_money_compensation": False,
         },
         "link": "https://www.expandplatform.com/developer/services/password-generator/",
-        "previewImage": "/img/js/tasks/translation.gif",
+        "previewImage": "/img/js/tasks/medium/translation.gif",
         "isTeamProject": False,
         "niche": "security",
         "category": "mini-app",
